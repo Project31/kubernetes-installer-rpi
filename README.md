@@ -32,15 +32,15 @@ For the impatient:
 
 1. Clone this repository on your Pi
 
-     `$ git clone https://github.com/runseb/k8s4pi.git`
+     `$ git clone git@github.com:Project31/kubernetes-installer-rpi.git`
 
-     `$ cd ./k8s4pi`
+     `$ cd ./kubernetes-installer-rpi`
 
-2. Run the `build.sh` script
+2. Install a master `build-master.sh` script
 
-     `$ ./build.sh`
+     `$ ./build-master.sh`
 
-3. Enjoy
+3. On a different RPi install a node `build-node.sh` script
 
 The longer version:
 -------------------
@@ -58,4 +58,4 @@ We build a local Hyperkube image.
 
      `$ curl -fsSL -o kubectl https://storage.googleapis.com/kubernetes-release/release/v1.0.3/bin/linux/arm/kubectl`
 
-The ARM binaries for the `kubelet` and `hyperkube` are downloaded from https://github.com/andrewpsuedonym/Kubernetes-Arm-Binaries.git
+The ARM binaries for the `kubelet` and `hyperkube` are downloaded from https://github.com/Project31/kubernetes-arm
