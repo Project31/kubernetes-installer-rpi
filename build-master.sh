@@ -24,8 +24,8 @@ docker run -v $PWD:/tmp/pause -w /tmp/pause hypriot/rpi-golang go build --ldflag
 docker build -t gcr.io/google_containers/pause:0.8.0 .
 
 cd ../
-curl -fsSL -o hyperkube https://github.com/fabric8pio/kubernetes-arm/raw/master/hyperkube
-curl -fsSL -o kubelet https://github.com/fabric8pio/kubernetes-arm/raw/master/kubelet
+curl -fsSL -o hyperkube https://github.com/project31/kubernetes-arm/raw/master/hyperkube
+curl -fsSL -o kubelet https://github.com/project31/kubernetes-arm/raw/master/kubelet
 
 chmod +x hyperkube
 mkdir images
