@@ -46,7 +46,7 @@ systemctl start kubelet
 
 curl -fsSL -o kubectl https://storage.googleapis.com/kubernetes-release/release/v1.0.3/bin/linux/arm/kubectl
 chmod +x kubectl
-mv kubectl /usr/bin/kubelet
+mv kubectl /usr/bin/kubectl
 
 
 
