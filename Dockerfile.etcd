@@ -16,6 +16,7 @@ FROM hypriot/rpi-golang
 RUN mkdir -p /go/src/app
 RUN mkdir -p /var/lib/etcd
 WORKDIR /go/src/app
+ENV ETCD_UNSUPPORTED_ARCH="arm"
 
 # this will ideally be built by the ONBUILD below ;)
 CMD ["go-wrapper", "run"]
