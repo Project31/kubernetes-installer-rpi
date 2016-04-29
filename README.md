@@ -32,7 +32,7 @@ For the impatient:
 
 1. Clone this repository on your Pi
 
-     `$ git clone git@github.com:Project31/kubernetes-installer-rpi.git`
+     `$ git clone https://github.com/Project31/kubernetes-installer-rpi.git`
 
      `$ cd ./kubernetes-installer-rpi`
 
@@ -40,7 +40,7 @@ For the impatient:
 
      `$ ./build-master.sh`
 
-3. On a different RPi install a node `build-node.sh` script
+3. On a different RPi install a node `build-worker.sh` script
 
 The longer version:
 -------------------
